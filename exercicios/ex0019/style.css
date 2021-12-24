@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+}
+
+h1#principaltitulo{
+    text-align: center;
+    background-image: linear-gradient(to right, blue, yellow);
+}
+
+body{
+    background-color: rgb(197, 248, 120);
+}
+
+.tituloprincipal{
+    color: brown;
+}
+
+#paragrafo{
+    text-indent: 30px;
+    color: cyan;
+}
+
+p{text-align: justify;}

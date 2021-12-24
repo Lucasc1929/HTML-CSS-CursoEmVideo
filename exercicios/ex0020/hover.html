@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        div > p{ /* Só mexer no parágrafo que está dentro da <div>*/
+            display: none; /* Por padrão, não vai mostrar nada */
+            color: white;
+        }
+
+        div:hover > p{
+            display: block; /* Quando eu passar o mouse, vai mostrar o texto */
+            color: red;
+            width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto</p>
+    <div>
+        Passe o mouse aqui
+        <p>Texto escondido ... </p>
+    </div>
+</body>
+</html>

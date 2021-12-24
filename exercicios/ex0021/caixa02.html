@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        article{
+            background-color: red;
+            border-radius: 7px 0px 7px 0px;   
+
+        }
+        article > aside{
+            background-image: linear-gradient(to right yellow );
+            border-radius: 7px;
+        }
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-image: linear-gradient(to bottom, orange, cyan);
+            background-attachment: fixed;
+        }
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418);
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: blue;
+            margin: 30px;
+            border-radius: 4px;
+        }
+        footer{
+            background-color: black;
+            padding: 20px;
+            outline: 10px;
+            color: thistle;
+            text-align: center;
+            font-size: 19px;
+            border-radius: 5px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        header{
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+        }
+        div#bola{
+            border-radius: 25px;
+            background-color: grey;
+            height:100px;
+            width: 100px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grouping Tags</h1>
+    <header>                            <!-- Cabeçalho -->
+        <h1>Meu site</h1>
+        <nav>  <!-- <Nav> é uma tag que indica uma seção de links -->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+        </section>
+            <p>Esportes Política Tecnologia</p>
+        <section id="noticias">
+            <article>                   
+
+                <h2>Notícias</h2> <!-- Tag usada para citar artigos -->
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem reiciendis dolorum minus quod omnis! Ipsa alias veniam nobis tenetur, quas animi? Quasi quo a adipisci fugit maxime facilis at asperiores.</p>
+                <aside>
+                    <p>Artigo escrito por Lucas </p>
+                </aside>
+
+            </article>
+
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer> <!-- Rodapé -->
+        <p>Desenvolvido com ajuda do Curso Em Vídeo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

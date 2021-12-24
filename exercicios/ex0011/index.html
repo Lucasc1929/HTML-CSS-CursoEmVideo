@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <br>
+    <picture>
+        <source media="(max-width: 605px)" srcset="P:\Code\WebDevelopment\CursoEmVideo\html-css\exercicios\Imagens\300x300Pimage.png" type="image/png"> 
+        <source media="(max-width:700px)" srcset="P:\Code\WebDevelopment\CursoEmVideo\html-css\exercicios\Imagens\700x700MImage.png" type="image/png">
+        <img src="P:\Code\WebDevelopment\CursoEmVideo\html-css\exercicios\Imagens\1000x1000GImage.png" alt="ImageFlexível">
+
+        <!-- Ele vai carregar a foto tamanho P, se a janela for menor que 650 -->
+        <!-- Ele vai carregar a foto tamanho M, mas se a janela do website for MAIOR do que 1000px ele vai carregar a foto G -->
+        <!--Vai indicar que uma imagem vai aparecer-->
+    </picture>
+    <h1>Reproduzinho Áudio</h1>
+    <audio preload="metadata" controls loop> 
+        <source src="P:\Code\WebDevelopment\CursoEmVideo\html-css\exercicios\midia\WakWaka.mp3" type="audio/mpeg">
+        <source src="P:\Code\WebDevelopment\CursoEmVideo\html-css\exercicios\midia\WakWaka.ogg" type="audio/ogg">
+        <source src="P:\Code\WebDevelopment\CursoEmVideo\html-css\exercicios\midia\WakWaka.wav" type="audio/wav">
+    </audio>
+
+</body>
+</html>

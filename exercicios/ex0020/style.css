@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+}
+
+div{
+    display: inline-block; /* Vai deixar todos os quadrados na mesma linha*/
+    text-align: center; 
+    border: 2px solid gray; /* Vai criar uma borda (espressura, tipo, cor) */
+    background-color: cyan;
+    height: 200px; /* Altura */
+    width: 200px; /* Largura */
+    padding: 1%;
+}
+
+
+div:hover{
+    background-color: yellow; /* Quer dizer que quando eu passar o mouse por cima da <div> vai deixar o quadrado amarelo, como se indicasse que estivesse selecionado*/
+}
