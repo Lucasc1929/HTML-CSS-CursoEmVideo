@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #container{
+            background-image: url("imagens/target001.png");
+            background-size: 100% 100%;
+            position: relative; /* Relative: padrão, */
+            height: 500px;
+            background-color: purple;
+            padding: 10px;
+        }
+
+        #conteudo{
+            background-image: url("imagens/target001.png");
+            background-size: 100% 100%;
+            position: absolute; /*Posso configurar duas medidas novas:*/
+            left: 50%; /*  Distância da borda esquerda*/
+            top: 50%;  /* Distância do topo*/
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            margin: auto;
+
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo"></article>
+    </section>
+</body>
+</html>
